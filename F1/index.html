@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="" href="profile_card.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Profile Card</title>
+</head>
+<body class="hero">
+  <div class="main_container">
+    <div class="image_container">
+      <img src="my_photo.jpg" alt="">
+    </div>
+   <svg viewBox="0 0 360 60" width="360" height="60">
+      <circle cx="10" cy="0" r="60" fill="indigo" />
+      <circle cx="125" cy="0" r="60" fill="indigo"/>
+      <circle cx="235" cy="0" r="60" fill="indigo"/>
+      <circle cx="350" cy="0" r="60" fill="indigo"/>
+    </svg>
+   <div class="name_container">
+     <h1>Jesús Barreto</h1>
+     <p>@dafnecraft</p>
+   </div>
+   <div class="social_media_container">
+     <a href=""><i class="fab fa-facebook"></i></a>
+     <a href=""><i class="fab fa-x"></i></a>
+     <a href=""><i class="fab fa-instagram"></i></a>
+     <a href=""><i class="fa-brands fa-linkedin"></i></a>
+   </div>
+   <div class="description_container">
+     <p>What I offer you is not something you can find just anywhere. It is a safe investment, with no expiration date, that will bring you joy and unforgettable moments. My love is a treasure ready to be yours, with guaranteed happiness for life. What do you say? Do you dare to buy it? 😁</p>
+   </div>
+   <div class="buttons_container">
+     <button class="button1" id="button1">Yes, I do! 😆</button>
+     <button class="button2" id="button2">Message 💬</button>
+   </div>
+  </div>
+
+  <script>
+        // Seleccionamos el botón por su ID
+        const boton = document.getElementById('button1');
+        const boton1 = document.getElementById('button2')
+        // Añadimos un "escuchador de eventos" para el clic del botón
+        boton.addEventListener('click', function() {
+            // Cuando se haga clic, se ejecuta esta función y muestra la alerta
+            alert('You have my instagram, you know where to text me. 😏');
+        });
+
+        boton1.addEventListener('click', function() {
+          alert('Babe, Text me on my instagram and I will give you my phone number. 🤭')
+        }
+        );
+
+
+    </script>
+</body>
+</html>
